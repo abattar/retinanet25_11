@@ -256,7 +256,7 @@ class CSVGenerator(Generator):
         gray3 = cv2.cvtColor(image3, cv2.COLOR_BGR2GRAY)
         gray4 = cv2.cvtColor(image4, cv2.COLOR_BGR2GRAY)
         gray5 = cv2.cvtColor(image5, cv2.COLOR_BGR2GRAY)
-        gray5 = cv2.cvtColor(image6, cv2.COLOR_BGR2GRAY)
+        gray6 = cv2.cvtColor(image6, cv2.COLOR_BGR2GRAY)
 
         img = np.zeros((576,768,11))
         img[:,:,0]= gray6
